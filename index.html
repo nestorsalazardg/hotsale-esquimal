@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hot Sale Esquimal - Hasta 50% de descuento</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <a href="#comprar" class="floating-cta">
+        <span class="cta-icon"><i class="fas fa-shopping-bag"></i></span>
+        <span class="cta-text">Comprar Ahora</span>
+        <span class="cta-pulse"></span>
+    </a>
+
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo">
+                <span class="logo-esquimal">ESQUIMAL</span>
+                <span class="logo-hot">HOT SALE</span>
+            </div>
+            <nav class="nav">
+                <a href="#ofertas">Ofertas</a>
+                <a href="#productos">Productos</a>
+                <a href="#comprar" class="nav-cta">Ver TODO</a>
+            </nav>
+            <button class="menu-toggle" aria-label="Menú">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-bg">
+            <div class="hero-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-badge">
+                <span class="badge-icon">🔥</span>
+                <span class="badge-text">HOT SALE 2026</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="title-line">HASTA</span>
+                <span class="title-big">50%</span>
+                <span class="title-line">DESCUENTO</span>
+            </h1>
+            <p class="hero-subtitle">En toda la colección de invierno. No te quedes sin el tuyo.</p>
+            
+            <div class="countdown">
+                <p class="countdown-label">¡Termina en!</p>
+                <div class="countdown-timer">
+                    <div class="time-block">
+                        <span class="time-value" id="days">00</span>
+                        <span class="time-label">Días</span>
+                    </div>
+                    <div class="time-separator">:</div>
+                    <div class="time-block">
+                        <span class="time-value" id="hours">00</span>
+                        <span class="time-label">Horas</span>
+                    </div>
+                    <div class="time-separator">:</div>
+                    <div class="time-block">
+                        <span class="time-value" id="minutes">00</span>
+                        <span class="time-label">Min</span>
+                    </div>
+                    <div class="time-separator">:</div>
+                    <div class="time-block">
+                        <span class="time-value" id="seconds">00</span>
+                        <span class="time-label">Seg</span>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#productos" class="hero-cta">
+                <span>Ver Ofertas</span>
+                <i class="fas fa-arrow-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <section class="offers" id="ofertas">
+        <div class="container">
+            <div class="offers-header">
+                <h2 class="section-title">Ofertas Destacadas</h2>
+                <p class="section-subtitle">Los mejores precios del año</p>
+            </div>
+            <div class="offers-grid">
+                <div class="offer-card">
+                    <div class="offer-badge">-40%</div>
+                    <div class="offer-image">
+                        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop" alt="Zapatillas Deportivas">
+                    </div>
+                    <div class="offer-info">
+                        <h3>Zapatillas Runner Pro</h3>
+                        <p class="offer-desc">Ultraligeros con tecnología de amortiguación</p>
+                        <div class="offer-price">
+                            <span class="price-original">$2,499</span>
+                            <span class="price-current">$1,499</span>
+                        </div>
+                        <button class="offer-btn">Agregar al Carrito</button>
+                    </div>
+                </div>
+                <div class="offer-card">
+                    <div class="offer-badge">-35%</div>
+                    <div class="offer-image">
+                        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=400&fit=crop" alt="Reloj Smart">
+                    </div>
+                    <div class="offer-info">
+                        <h3>Smart Watch Horizon</h3>
+                        <p class="offer-desc">Monitoreo de salud 24/7</p>
+                        <div class="offer-price">
+                            <span class="price-original">$3,199</span>
+                            <span class="price-current">$2,079</span>
+                        </div>
+                        <button class="offer-btn">Agregar al Carrito</button>
+                    </div>
+                </div>
+                <div class="offer-card">
+                    <div class="offer-badge">-50%</div>
+                    <div class="offer-image">
+                        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop" alt="Audífonos">
+                    </div>
+                    <div class="offer-info">
+                        <h3>Headphones Bass Pro</h3>
+                        <p class="offer-desc">Cancelación activa de ruido</p>
+                        <div class="offer-price">
+                            <span class="price-original">$2,999</span>
+                            <span class="price-current">$1,499</span>
+                        </div>
+                        <button class="offer-btn">Agregar al Carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products" id="productos">
+        <div class="container">
+            <div class="products-header">
+                <h2 class="section-title">Productos Destacados</h2>
+                <p class="section-subtitle">Lo mejor de la temporada</p>
+            </div>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-discount">-30%</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=400&h=500&fit=crop" alt="Chaqueta">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Invierno</span>
+                        <h3>Chaqueta Polar Tec</h3>
+                        <div class="product-price">
+                            <span class="price-original">$1,899</span>
+                            <span class="price-current">$1,329</span>
+                        </div>
+                        <button class="product-btn">Comprar Ahora</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-discount">-25%</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1560343090-f0409e92791a?w=400&h=500&fit=crop" alt="Pantalón">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Urbanos</span>
+                        <h3>Pantalón Cargo Flex</h3>
+                        <div class="product-price">
+                            <span class="price-original">$1,299</span>
+                            <span class="price-current">$974</span>
+                        </div>
+                        <button class="product-btn">Comprar Ahora</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-discount">-45%</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1556907694-fb0b29d3169c?w=400&h=500&fit=crop" alt="Bolso">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Accesorios</span>
+                        <h3>Bolso Travel Max</h3>
+                        <div class="product-price">
+                            <span class="price-original">$1,599</span>
+                            <span class="price-current">$879</span>
+                        </div>
+                        <button class="product-btn">Comprar Ahora</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-discount">-35%</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=400&h=500&fit=crop" alt="Lentes">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Accesorios</span>
+                        <h3>Lentes Solar Urban</h3>
+                        <div class="product-price">
+                            <span class="price-original">$999</span>
+                            <span class="price-current">$649</span>
+                        </div>
+                        <button class="product-btn">Comprar Ahora</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section" id="comprar">
+        <div class="container">
+            <div class="cta-box">
+                <div class="cta-content">
+                    <h2>¡No Esperes Más!</h2>
+                    <p>Las mejores ofertas de todo el año. Stocks limitados.</p>
+                    <button class="cta-main-btn">
+                        <i class="fas fa-shopping-cart"></i>
+                        Comprar Ahora
+                    </button>
+                    <div class="cta-features">
+                        <div class="feature">
+                            <i class="fas fa-truck"></i>
+                            <span>Envío gratis +$500</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-undo"></i>
+                            <span>Devolución 30 días</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-lock"></i>
+                            <span>Pago 100% seguro</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span>ESQUIMAL</span>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+                <p class="footer-copy">© 2026 Esquimal. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
